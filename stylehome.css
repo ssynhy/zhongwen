@@ -1,0 +1,126 @@
+body{
+    background-color:#ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    color: #6c276e;
+}
+header{
+    background-color:#ffffff;
+    margin: 0;
+    padding: 0 30px;
+}
+section{
+    background-color:#ffffff;
+    margin: 10px;
+    padding: 0;
+    color:#b961ae;
+}
+button{
+    color:#b961ae;
+    background-color:aquamarine;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    position: relative;
+    left: 20px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.logo{
+    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    color:rgb(114, 229, 191);
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 5px;
+}
+b{
+    font-size: 70px;
+    color: #b961ae;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    height: 60px;
+    line-height: 60px;
+    z-index: 111;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 15px;
+    color:rgb(114, 229, 191);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.navItems li:hover a{
+    color:aquamarine;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url("./img/square.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#ACE5BB;
+}
+.container .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    min-height: 100vh;
+}
+.container .content h4{
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    color:#6c276e;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container .content h1{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+    display: inline-block;
+}
+.container .content h3{
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6c276e;
+}
+.image .img-bra{
+    width: 80%;
+    position: relative;
+    left: 100px;
+}
+.container .content h1{
+    font-size: 25px;
+}
+@media only screen and (max-width:400px){
+    .container{
+        width: 90%;
+        height: 90%;
+    }
+}

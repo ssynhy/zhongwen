@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>bra calculator</title>
+    <link rel="stylesheet" href="stylesize.css">
+    <script src="script2.js" defer></script>
+    <header>
+        <nav>
+            <div class="logo">Brallium<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="shapecalculator.html">胸型计算器</a></li>
+                <li><a href="sizecalculator.html">胸罩尺码计算器</a></li>
+                <li><a href="material.html">生物材料研究运用</a></li>
+                <li><a href="purchase.html">购买产品</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body><section>
+    <p><div class="text">可以按照下方说明进行操作哦!
+        <br></br>
+        <br>1. 根据图片引导, 在下方计算机内输入你的乳房高度, 上部半径, 和下部半径。</br><br>2. 下划页面, 来看看咱们对结果的解释~</br></p>
+        <img src="img/bra measurement.JPG" alt="bra measurement">
+    </div>
+    <div class="wrapper">
+        <p class="bra-size">胸罩尺码计算器</p>
+        <br></br>
+        <p>上部半径 (CM):
+            <input type="text" id="width1"><br><span id="width1_error"></span>
+        </p>
+        <p>下部半径 (CM):
+            <input type="text" id="width2"><br><span id="width2_error"></span>
+        </p>
+        <button id="btn1">计算</button>
+        <p id="output1"></p>
+
+        <p>乳房高度 (CM):
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+        <p>上部半径 (CM):
+            <input type="text" id="width1"><br><span id="width1_error"></span>
+        </p>
+        <div class="btn2">
+        <button2 id="btn2">计算</button2></div>
+        <p id="output2"></p>
+
+        <p>乳房高度 (CM):
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+        <p>下部半径 (CM):
+            <input type="text" id="width2"><br><span id="width2_error"></span>
+        </p>
+        <div class="btn3">
+        <button3 id="btn3">计算</button3></div>
+        <p id="output3"></p>
+    </div>
+    <div class="interpretation"><h2>好奇你的数据代表了什么意义么？</h2>
+        <p>上方计算得到的三个数字构成了你乳房侧视图中三角形的三条边。
+            <br></br>结合胸型计算器的结果, Brallium可以进一步个性化定制属于你的文胸。如果你想进一步购买我们的产品, 请在<a href="purchase.html">购买产品</a>页面中输入胸型计算器和胸罩尺码计算器的结果!
+        </p>
+</section></body>

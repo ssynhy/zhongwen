@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>bra calculator</title>
+    <link rel="stylesheet" href="stylemoney.css">
+    <header>
+        <div class="nav container">
+            <div class="logo">Brallium<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="shapecalculator.html">胸型计算器</a></li>
+                <li><a href="sizecalculator.html">胸罩尺码计算器</a></li>
+                <li><a href="material.html">生物材料研究运用</a></li>
+                <li><a href="purchase.html">购买产品</a></li>
+                <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            </ul>
+        </nav>
+    </header>
+</head>
+
+<body><section>
+    <form action="https://sheetdb.io/api/v1/gfbik6kc9mm2g" method="POST" id="sheetdb-form">
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>收件人信息</h3>
+                  <label for="fname"><i class="fa fa-user"></i> 姓名全称</label>
+                  <input type="text" id="fname" name="data[firstname]" placeholder="王叶">
+                  <label for="email"><i class="fa fa-envelope"></i> 邮件</label>
+                  <input type="text" id="email" name="data[email]" placeholder="163/sina@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> 地址</label>
+                  <input type="text" id="adr" name="data[address]" placeholder="虹桥新路, 16弄, 5号, 1503室">
+                  <label for="city"><i class="fa fa-institution"></i> 城市</label>
+                  <input type="text" id="city" name="data[city]" placeholder="上海">
+
+                </div>
+      
+                <div class="col-50">
+                  <h3>付款方式</h3>
+                  <label for="fname">请扫描下方微信付款码进行付款</label>
+                  <img src="img/pay.jpg" alt="pay">
+
+                </div>
+      
+              </div>
+              <input type="submit" value="已付款" class="btn">
+            </form>
+          </div>
+        </div>
+        <script>
+            var form = document.getElementById("sheetdb-form");
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method:"POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+                
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                window.open("nextpage.html","_blank");
+            });
+        });
+        </script>
+    </section>
+</body>

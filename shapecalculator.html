@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>bra calculator</title>
+    <link rel="stylesheet" href="styleshape.css">
+    <script src="script1.js" defer></script>
+    <header>
+        <nav>
+            <div class="logo">Brallium<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="shapecalculator.html">胸型计算器</a></li>
+                <li><a href="sizecalculator.html">胸罩尺码计算器</a></li>
+                <li><a href="material.html">生物材料研究运用</a></li>
+                <li><a href="purchase.html">购买产品</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body><section>
+    <p><div class="text">可以按照下方说明进行操作哦!
+        <br></br>
+        <br>1. 根据图片引导, 在下方计算机内输入你的乳房高度, 上部半径, 和下部半径。 </br><br>2. 下划页面, 来看看咱们对结果的解释~</br></p>
+        <img src="img/bra measurement.JPG" alt="bra measurement">
+    </div>
+    <div class="wrapper">
+        <p class="bra-size">胸型计算器</p>
+        <br></br>
+        <p>乳房高度 (CM):
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+
+        <p>上部半径 (CM):
+            <input type="text" id="width1"><br><span id="width1_error"></span>
+        </p>
+        <p>下部半径 (CM):
+            <input type="text" id="width2"><br><span id="width2_error"></span>
+        </p>
+        <button id="btn">计算</button>
+        <p id="output"></p>
+    </div>
+    <div class="interpretation"><h2>各种各样的胸型介绍:</h2> 
+        <h3>- 圆盘型: </h3>
+            <div class="plate">
+                <p> 乳房上部和下部之间的角度大于90度。<br></br>
+                    在生产文胸时, Brallium专注于创造底部相对大而罩杯浅的文胸。
+                </p>
+                <div class="imgangle">
+                <img src="/img/bra angle1.JPG" alt="angle1"></div>
+    </div><br></br>
+        <h3>- 圆锥型</h3>
+                <div class="conical">
+                    <p> 乳房上部和下部之间的角度小于90度。<br></br>
+                    在生产文胸针对这类胸型时, Brallium专注于制造底部相对小而罩杯深的文胸。
+                    </p>
+                    <div class="imgangle2">
+                    <img src="/img/bra angle2.JPG" alt="angle2"></div>
+        </div><br></br>
+        <h3>- 自定义</h3>
+        <p>还在担心找不到合适自己的胸罩么？<br></br>根据每个人不同的健康状况、性别认同和个人喜好, 胸罩设计和系统应该更贴合个体所需。然而, 现在广泛使用的ABCDEFG罩杯尺寸系统并没有考虑到这些因素。<br></br>
+        所以, Brallium的初衷就是为了解决胸罩体系的不足之处! 胸型计算器的功能就是采用三角学和勾股定理, 通过你输入的乳房高度、上部半径和下部半径计算夹角的tangent值, 再与90度的tangent值做对比, 来帮助你确定你的胸型!</p></div>
+</section></body>

@@ -1,0 +1,135 @@
+.logo{
+    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    color:rgb(114, 229, 191);
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 5px;
+}
+b{
+    font-size: 70px;
+    color: #b961ae;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    height: 60px;
+    line-height: 60px;
+    z-index: 111;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.navItems{
+    display:flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 15px;
+    color:rgb(114, 229, 191);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.navItems li:hover a{
+    color:aquamarine;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #b961ae;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("./img/square2.JPG");
+    background-repeat:repeat;
+}
+.text{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 35px;
+    text-align:center;
+    color: #7d2e80;
+}
+.intro{
+    width: 70%;
+    display: flex;
+}
+img{
+    float: left;
+    max-width: 400px;
+    margin: 70px 80px;
+    margin-right: 5px;
+    border:3px solid #ACE5BB;
+    border-radius: 10px;
+}
+.textbox1{
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+.textbox1 h2{
+    font-size: 25px;
+}
+.needtorap{
+    margin-right: 20px;
+}
+.adherence{
+    width: 70%;
+    display: flex;
+}
+.textbox2{
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+.textbox2 h2{
+    font-size: 25px;
+}
+.application{
+    width: 70%;
+    display: flex;
+}
+.textbox3{
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 20px;;
+    white-space: nowrap;
+}
+.textbox3 h2{
+    font-size: 25px;
+}
+.limitation{
+    font-size: 16px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.limitation b{
+    font-size: 25px;
+}
+.interpretation{
+    margin-top: 1400px;
+}
+.reference{
+    font-size: 2px;
+    margin-right: 20px;
+    white-space: normal;
+}
+
+
+
